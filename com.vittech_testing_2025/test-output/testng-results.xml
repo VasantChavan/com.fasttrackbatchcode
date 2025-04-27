@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-27T14:00:47 IST" name="Suite" finished-at="2025-04-27T14:00:47 IST" duration-ms="147">
+    <groups>
+      <group name="Sanity">
+        <method signature="GroupsTestInTestNG.endToEndTest()[pri:0, instance:com.testng.GroupsTestInTestNG@dbf57b3]" name="endToEndTest" class="com.testng.GroupsTestInTestNG"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="GroupsTestInTestNG.regressionTest()[pri:0, instance:com.testng.GroupsTestInTestNG@dbf57b3]" name="regressionTest" class="com.testng.GroupsTestInTestNG"/>
+      </group> <!-- Regression -->
+      <group name="E2E">
+        <method signature="GroupsTestInTestNG.endToEndTest()[pri:0, instance:com.testng.GroupsTestInTestNG@dbf57b3]" name="endToEndTest" class="com.testng.GroupsTestInTestNG"/>
+      </group> <!-- E2E -->
+    </groups>
+    <test started-at="2025-04-27T14:00:47 IST" name="Test" finished-at="2025-04-27T14:00:47 IST" duration-ms="147">
+      <class name="com.testng.GroupsTestInTestNG">
+        <test-method signature="endToEndTest()[pri:0, instance:com.testng.GroupsTestInTestNG@dbf57b3]" started-at="2025-04-27T14:00:47 IST" name="endToEndTest" finished-at="2025-04-27T14:00:47 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndTest -->
+        <test-method signature="regressionTest()[pri:0, instance:com.testng.GroupsTestInTestNG@dbf57b3]" started-at="2025-04-27T14:00:47 IST" name="regressionTest" finished-at="2025-04-27T14:00:47 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressionTest -->
+      </class> <!-- com.testng.GroupsTestInTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
